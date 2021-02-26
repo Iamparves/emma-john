@@ -1,0 +1,40 @@
+.product__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 10px;
+}
+
+.product__img--box {
+    width: 270px;
+    height: 250px;
+}
+
+.product__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product__details--box {
+    width: calc(100% - 285px);
+}
+
+.product__name {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #00f;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.product__details p {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.product__details .product__stock {
+    margin-bottom: 20px;
+}

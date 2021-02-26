@@ -1,0 +1,33 @@
+.container {
+    max-width: 1200px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.header img {
+    width: 250px;
+    margin: 15px auto;
+    display: block;
+}
+
+.navbar {
+    background: #000;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    background: #222;
+    transition: .5s;
+}
+
+.navbar a:hover {
+    background: #444;
+}
+
+.navbar a:not(:last-child) {
+    border-right: 1px solid #000;
+}

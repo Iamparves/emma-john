@@ -1,0 +1,14 @@
+.shop__inner {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+}
+
+.product__container {
+    border-right: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart__container{
+    padding: 10px 0;
+}
